@@ -32,5 +32,5 @@ jobs:
           sonar-scanner \
             -Dsonar.projectKey=ostad-sonarqube-assignment \
             -Dsonar.sources=. \
-            -Dsonar.host.url=https://ef3b-119-10-170-238.ngrok-free.app0 \
-            -Dsonar.login=$SONAR_TOKEN_LOGIN
+            -Dsonar.host.url=https://ef3b-119-10-170-238.ngrok-free.app \
+            -Dsonar.login=$SONAR_TOKEN
