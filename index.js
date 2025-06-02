@@ -4,7 +4,7 @@ class TodoApp {
   }
 
   addTodo(task) {
-    if (!task) throw new Error('Task cannot be empty');
+    if (!task) throw new Error('Task cannot be empty.');
     this.todos.push({ task, completed: false });
   }
 
